@@ -17,7 +17,9 @@ class MainApp extends StatelessWidget {
           backgroundColor: Colors.blue,
         ),
         body: const Center(
-          child: Text("Incubators"),
+          child: Text("Incubators",style: TextStyle(
+            fontSize: 30 , color: Colors.white
+          ), ),
         ),
       ),
     );
